@@ -35,6 +35,3 @@ for turn 3+, `FACTUAL_CONTRADICTING` for factual questions). `tones.py` and
 - The **WildChat** category in the paper samples 20 real prompts from
   [WildChat-1M](https://huggingface.co/datasets/allenai/WildChat-1M) at eval
   time and is therefore not shipped as a static prompt set here.
-- `simple_factual.py` was named `WILDCHAT_PROMPTS` in the original research
-  repo for historical reasons, but is *not* WildChat data — it has been
-  renamed to avoid confusion.
